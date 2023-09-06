@@ -1,0 +1,9 @@
+{
+    "name": "gci",
+    "versions": {
+        "0.11.1": {
+            "go-install": "github.com/daixiang0/gci@v0.11.1"
+        }
+    },
+    "try-go-install": "github.com/daixiang0/gci"
+}
