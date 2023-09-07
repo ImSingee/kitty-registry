@@ -1,5 +1,8 @@
 {
     "name": "gci",
+    "tags": {
+        "latest": "0.11.1"
+    },
     "versions": {
         "0.11.1": {
             "go-install": "github.com/daixiang0/gci@v0.11.1"
