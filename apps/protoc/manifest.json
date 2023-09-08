@@ -1,0 +1,39 @@
+{
+    "name": "protoc",
+    "tags": {
+        "latest": "24.3"
+    },
+    "versions": {
+        "24.3": {
+            "dist-zip": {
+                "darwin-amd64": "https://github.com/protocolbuffers/protobuf/releases/download/v24.3/protoc-24.3-osx-x86_64.zip",
+                "darwin-arm64": "https://github.com/protocolbuffers/protobuf/releases/download/v24.3/protoc-24.3-osx-aarch_64.zip",
+                "linux-amd64": "https://github.com/protocolbuffers/protobuf/releases/download/v24.3/protoc-24.3-linux-x86_64.zip",
+                "linux-arm64": "https://github.com/protocolbuffers/protobuf/releases/download/v24.3/protoc-24.3-linux-aarch_64.zip",
+                "default": {
+                    "bin": "bin/protoc"
+                }
+            }
+        },
+        "21.2": {
+            "dist-zip": {
+                "darwin-amd64": "https://github.com/protocolbuffers/protobuf/releases/download/v21.2/protoc-21.2-osx-x86_64.zip",
+                "darwin-arm64": "https://github.com/protocolbuffers/protobuf/releases/download/v21.2/protoc-21.2-osx-aarch_64.zip",
+                "linux-amd64": "https://github.com/protocolbuffers/protobuf/releases/download/v21.2/protoc-21.2-linux-x86_64.zip",
+                "linux-arm64": "https://github.com/protocolbuffers/protobuf/releases/download/v21.2/protoc-21.2-linux-aarch_64.zip",
+                "default": {
+                    "bin": "bin/protoc"
+                }
+            }
+        }
+    },
+    "try-dist-zip": {
+        "darwin-amd64": "https://github.com/protocolbuffers/protobuf/releases/download/v{{ .semver }}/protoc-{{ .semver }}-osx-x86_64.zip",
+        "darwin-arm64": "https://github.com/protocolbuffers/protobuf/releases/download/v{{ .semver }}/protoc-{{ .semver }}-osx-aarch_64.zip",
+        "linux-amd64": "https://github.com/protocolbuffers/protobuf/releases/download/v{{ .semver }}/protoc-{{ .semver }}-linux-x86_64.zip",
+        "linux-arm64": "https://github.com/protocolbuffers/protobuf/releases/download/v{{ .semver }}/protoc-{{ .semver }}-linux-aarch_64.zip",
+        "default": {
+            "bin": "bin/protoc"
+        }
+    }
+}
