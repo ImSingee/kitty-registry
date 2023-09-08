@@ -1,0 +1,12 @@
+{
+    "name": "golines",
+    "tags": {
+        "latest": "0.11.0"
+    },
+    "versions": {
+        "0.11.0": {
+            "go-install": "github.com/segmentio/golines@v0.11.0"
+        }
+    },
+    "try-go-install": "github.com/segmentio/golines"
+}
