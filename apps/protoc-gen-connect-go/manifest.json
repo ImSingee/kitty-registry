@@ -1,0 +1,12 @@
+{
+    "name": "protoc-gen-connect-go",
+    "tags": {
+        "latest": "1.10.0"
+    },
+    "versions": {
+        "1.10.0": {
+            "go-install": "github.com/bufbuild/connect-go/cmd/protoc-gen-connect-go@v1.10.0"
+        }
+    },
+    "try-go-install": "github.com/bufbuild/connect-go/cmd/protoc-gen-connect-go"
+}
