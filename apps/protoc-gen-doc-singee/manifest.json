@@ -1,0 +1,12 @@
+{
+    "name": "protoc-gen-doc-singee",
+    "tags": {
+        "latest": "1.6.3"
+    },
+    "versions": {
+        "1.6.3": {
+            "go-install": "github.com/ImSingee/protoc-gen-doc/cmd/protoc-gen-doc@v1.6.3"
+        }
+    },
+    "try-go-install": "github.com/ImSingee/protoc-gen-doc/cmd/protoc-gen-doc"
+}
