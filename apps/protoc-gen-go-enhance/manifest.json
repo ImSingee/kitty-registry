@@ -1,0 +1,12 @@
+{
+    "name": "protoc-gen-go-enhance",
+    "tags": {
+        "latest": "0.1.8"
+    },
+    "versions": {
+        "0.1.8": {
+            "go-install": "github.com/ImSingee/protoc-gen-go-enhance@v0.1.8"
+        }
+    },
+    "try-go-install": "github.com/ImSingee/protoc-gen-go-enhance"
+}
