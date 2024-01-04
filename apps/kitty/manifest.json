@@ -1,0 +1,22 @@
+{
+    "name": "kitty",
+    "tags": {
+        "latest": "0.1.0-alpha.8"
+    },
+    "versions": {
+        "0.1.0-alpha.8": {
+            "dist-tar": {
+                "default": {
+                    "url": "https://github.com/ImSingee/kitty/releases/download/v{{ .semver }}/kitty-{{ .semver }}-{{ .os }}.{{ .arch }}.tar.gz",
+                    "bin": "kitty"
+                }
+            }
+        }
+    },
+    "try-dist-tar": {
+        "default": {
+            "url": "https://github.com/ImSingee/kitty/releases/download/v{{ .semver }}/kitty-{{ .semver }}-{{ .os }}.{{ .arch }}.tar.gz",
+            "bin": "kitty"
+        }
+    }
+}
