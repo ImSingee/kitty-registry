@@ -1,9 +1,20 @@
 {
     "name": "protoc",
     "tags": {
-        "latest": "24.3"
+        "latest": "29.2"
     },
     "versions": {
+        "29.2": {
+            "dist-zip": {
+                "darwin-amd64": "https://github.com/protocolbuffers/protobuf/releases/download/v29.2/protoc-29.2-osx-x86_64.zip",
+                "darwin-arm64": "https://github.com/protocolbuffers/protobuf/releases/download/v29.2/protoc-29.2-osx-aarch_64.zip",
+                "linux-amd64": "https://github.com/protocolbuffers/protobuf/releases/download/v29.2/protoc-29.2-linux-x86_64.zip",
+                "linux-arm64": "https://github.com/protocolbuffers/protobuf/releases/download/v29.2/protoc-29.2-linux-aarch_64.zip",
+                "default": {
+                    "bin": "bin/protoc"
+                }
+            }
+        },
         "24.3": {
             "dist-zip": {
                 "darwin-amd64": "https://github.com/protocolbuffers/protobuf/releases/download/v24.3/protoc-24.3-osx-x86_64.zip",

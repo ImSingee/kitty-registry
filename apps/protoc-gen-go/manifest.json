@@ -1,9 +1,12 @@
 {
     "name": "protoc-gen-go",
     "tags": {
-        "latest": "1.31.0"
+        "latest": "1.36.1"
     },
     "versions": {
+        "1.36.1": {
+            "go-install": "google.golang.org/protobuf/cmd/protoc-gen-go@v1.36.1"
+        },
         "1.31.0": {
             "go-install": "google.golang.org/protobuf/cmd/protoc-gen-go@v1.31.0"
         },
