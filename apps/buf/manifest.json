@@ -1,0 +1,16 @@
+{
+    "name": "buf",
+    "tags": {
+        "latest": "1.48.0"
+    },
+    "versions": {
+        "1.48.0": {
+            "bin": {
+                "darwin-amd64": "https://github.com/bufbuild/buf/releases/download/v1.48.0/buf-Darwin-x86_64",
+                "darwin-arm64": "https://github.com/bufbuild/buf/releases/download/v1.48.0/buf-Darwin-arm64",
+                "linux-amd64": "https://github.com/bufbuild/buf/releases/download/v1.48.0/buf-Linux-x86_64",
+                "linux-arm64": "https://github.com/bufbuild/buf/releases/download/v1.48.0/buf-Linux-aarch64"
+            }
+        }
+    }
+}
